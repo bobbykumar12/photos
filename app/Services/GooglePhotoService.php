@@ -112,7 +112,7 @@ class GooglePhotoService
     // }
 
 
-    public function syncUserMedia($user)
+    public function syncUserPhotos($user)
 {
     $accessToken = $this->getFreshAccessToken($user);
 
